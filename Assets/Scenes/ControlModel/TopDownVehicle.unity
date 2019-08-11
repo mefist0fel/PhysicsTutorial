@@ -899,7 +899,7 @@ GameObject:
   - component: {fileID: 994798359}
   - component: {fileID: 994798358}
   m_Layer: 0
-  m_Name: Hero
+  m_Name: Vehicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -989,14 +989,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.05
-  m_AngularDrag: 0.05
+  m_LinearDrag: 5
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!4 &994798362
 Transform:
   m_ObjectHideFlags: 0
@@ -1020,10 +1020,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 994798357}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7831f83866e9b4349910c466702eabf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ec547c2382888a4e9b0cdba55b5f9e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
+  rotationSpeed: 200
   rigidbody2d: {fileID: 994798361}
 --- !u!1 &1251955121
 GameObject:
