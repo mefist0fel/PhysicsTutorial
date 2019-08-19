@@ -14,8 +14,4 @@ public sealed class AngryBird : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-    void Update() {
-
-    }
 }
